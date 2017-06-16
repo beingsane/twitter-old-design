@@ -1,8 +1,4 @@
-// Disclaimer
-// ===========
-// Just found out that twitter reloads the whole body on route change and so the required class is applied again
-// Adding timer as a quick fix but better would be to use MutationObserver or use Chrome's Alarm API.
-
+// Clear the timer if it already exists
 window.edgeTimer && window.clearInterval(window.edgeTimer);
 
 function removeEdgeDesign() {

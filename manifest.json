@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter - No Rounded",
+  "version": "1.0.0",
+  "minimum_chrome_version": "26",
+  "icons": {
+    "16": "assets/icon_16.png",
+    "48": "assets/icon_48.png",
+    "128": "assets/icon_128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://twitter.com/*",
+        "*://*.twitter.com/*"
+      ],
+      "js": [
+        "src/content_script.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

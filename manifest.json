@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Twitter - Old design",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minimum_chrome_version": "15",
   "icons": {
     "16": "assets/icon_16.png",
@@ -17,7 +17,7 @@
       "js": [
         "src/content_script.js"
       ],
-      "run_at": "document_idle"
+      "run_at": "document_start"
     }
   ]
 }

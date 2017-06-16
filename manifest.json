@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Twitter - No Rounded",
+  "name": "Twitter - Old design",
   "version": "1.0.0",
-  "minimum_chrome_version": "26",
+  "minimum_chrome_version": "15",
   "icons": {
     "16": "assets/icon_16.png",
     "48": "assets/icon_48.png",

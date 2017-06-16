@@ -1,4 +1,4 @@
-# Make twitter great again
+# Twitter - Old Design
 > Chrome Extension - Get your old twitter UI back!
 
 Reverts the recent twitter UI change that introduced the rounded corners, outlined icons and different icons in the twitter stream

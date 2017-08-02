@@ -1,6 +1,5 @@
 _______________
-:warning: Does not work anymore because of the recent changes by twitter!
-
+Does not work anymore because of the recent changes by twitter!
 Better make peace with the new design :)
 _______________
 
